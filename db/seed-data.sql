@@ -1,8 +1,8 @@
 -- Insert sample categories
-INSERT INTO category (CategoryName) VALUES ('Work'), ('Personal'), ('Fitness');
+INSERT INTO Category (CategoryName) VALUES ('Work'), ('Personal'), ('Fitness');
 
 -- Insert sample tasks
-INSERT INTO task (Title, Description, DueDate, Priority, Status, CategoryId)
+INSERT INTO Task (Title, Description, DueDate, Priority, Status, CategoryId)
 	VALUES
     ('Finish report', 'Complete the monthly financial report', '2024-10-25', 'High', 'Pending', 1),
 	('Buy groceries', 'Purchase groceries for the week', '2024-10-20', 'Medium', 'Completed', 2),
